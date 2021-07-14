@@ -20,7 +20,7 @@ const ScheduleRow = ({ day, morning, afternoon, goToCourses }) => {
   return (
     <View style={{ flex: 1,backgroundColor:"honeydew", flexDirection: "row", margin: 10 }}>
       <View style={{ flex: 1 }}>
-        <Text style={{fontWeight:"bold",color:"didarkslategrey"}}>{day}</Text>
+        <Text style={{color:"didarkslategrey"}}>{day}</Text>
       </View>
       <TouchableOpacity onPress={goToCourses} style={{ flex: 1 }}>
         <Text>{morning}</Text>
