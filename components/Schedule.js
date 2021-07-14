@@ -1,16 +1,16 @@
 import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
 
 const Schedule = ({ goToCourses }) => {
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 2, backgroundColor:"honeydew",margin: 10 }}>
+      
       <ScheduleRow day={"DAY"} morning={"MORNING"} afternoon={"AFTERNOON"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Monday"} morning={"Physics"} afternoon={"Language"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Tuesday"} morning={"Mathematics"} afternoon={"Komunikasi"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Wednesday"} morning={"History"} afternoon={"Geoghaphy"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Thursday"} morning={"Malay"} afternoon={"Science"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Friday"} morning={"Control system"} afternoon={"Electronic"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Monday"} morning={"Physics"} afternoon={"English"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Tuesday"} morning={"Mathematics"} afternoon={"Biology"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Wednesday"} morning={"History"} afternoon={"Geography"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Thursday"} morning={"Chemistry"} afternoon={"Science"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Friday"} morning={"Visual Art"} afternoon={"Electronic"}/>
       
     </View>
   );
@@ -18,9 +18,9 @@ const Schedule = ({ goToCourses }) => {
 
 const ScheduleRow = ({ day, morning, afternoon, goToCourses }) => {
   return (
-    <View style={{ flex: 1, flexDirection: "row", margin: 10 }}>
+    <View style={{ flex: 1,backgroundColor:"honeydew", flexDirection: "row", margin: 10 }}>
       <View style={{ flex: 1 }}>
-        <Text>{day}</Text>
+        <Text style={{fontWeight:"bold",color:"didarkslategrey"}}>{day}</Text>
       </View>
       <TouchableOpacity onPress={goToCourses} style={{ flex: 1 }}>
         <Text>{morning}</Text>

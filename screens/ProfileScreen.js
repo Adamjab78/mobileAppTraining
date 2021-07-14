@@ -16,15 +16,11 @@ export default function ProfileScreen() {
   
     return (
       <View style={{ flex: 1 }}>
-        <Header title={"Profile"} />
+       
+       <Header title={"Profile"} iconTitle={"md-person-circle-outline"} /> 
+        
         <View style={{ flex: 5 }}>
-          <Text
-            style={{
-              marginHorizontal: 10,
-              padding: 5,
-              marginBottom: 10, fontSize :16,
-            }}
-          >
+          <Text style={{ marginHorizontal: 10,padding: 5,marginBottom: 10, marginTop: 10, fontSize :18,color: "darkblue"}}>
             Name :
           </Text>
           <TextInput
@@ -46,11 +42,11 @@ export default function ProfileScreen() {
               justifyContent: "center",
               alignItems: "center",
               borderRadius: 10,
-              backgroundColor: "grey",
+              backgroundColor: "lightskyblue",
             }}
             onPress={()=>showContent()}
           >
-            <Text style={{ fontSize: 17, color: "white" }}>SUBMIT</Text>
+            <Text style={{ fontWeight:"bold", fontSize: 17, color: "white" }}>SUBMIT</Text>
           </TouchableOpacity>
   
         </View>
@@ -77,4 +73,4 @@ export default function ProfileScreen() {
       </View>
     );
   };
-  
+  /*<Header title={"Profile"} />*/
