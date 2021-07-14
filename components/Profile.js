@@ -20,8 +20,8 @@ const Profile = () => {
           />
         </View>
         <View style={{ flex: 2 }}>
-          <Text style={{ marginBottom: 10 }}>Syahrizan Ali Hassan</Text>
-          <Text>Trainer</Text>
+          <Text style={{ marginBottom: 10, color: "darkblue"}}>Mohd Adam Bin Jab</Text>
+          <Text style={{ marginBottom: 10, color: "darkblue"}}>Trainee</Text>
         </View>
       </View>
     </View>
