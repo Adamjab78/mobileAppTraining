@@ -16,7 +16,6 @@ export default function CoursesScreen() {
           renderItem={({ item }) => <CourseCard item={item} />}
         />
       </View>
-      <Footer/>
     </View>
   );
 }
