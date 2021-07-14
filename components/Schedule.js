@@ -7,11 +7,11 @@ const Schedule = ({ goToCourses }) => {
       
       <ScheduleRow1 style={{color:"blue"}} hari={"DAY"} pagi={"MORNING"} petang={"AFTERNOON"}/>
       
-      <ScheduleRow goToCourses={goToCourses} day={"Monday"} morning={"Physics"} afternoon={"English"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Tuesday"} morning={"Mathematics"} afternoon={"Biology"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Wednesday"} morning={"History"} afternoon={"Geography"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Thursday"} morning={"Chemistry"} afternoon={"Science"}/>
-      <ScheduleRow goToCourses={goToCourses} day={"Friday"} morning={"Visual Art"} afternoon={"Electronic"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Monday"} morning={"Business"} afternoon={"Finance"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Tuesday"} morning={"Strategic"} afternoon={"Multimedia"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Wednesday"} morning={"C++ Program"} afternoon={"Web Application"}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Thursday"} morning={"V Reality"} afternoon={"Artificial Int."}/>
+      <ScheduleRow goToCourses={goToCourses} day={"Friday"} morning={"Calculus"} afternoon={"Marketing"}/>
       
     </View>
   );
