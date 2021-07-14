@@ -8,8 +8,9 @@ import { blue } from "ansi-colors";
 
 export default function CoursesScreen() {
   return (
+    
     <View style={{ flex: 1 }}>
-      <Header title={"Courses"} />
+      <Header title={"Courses"} iconTitle={"book-outline"} />
       <View style={{ flex: 5 }}>
         <FlatList
           data={courses}

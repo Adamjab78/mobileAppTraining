@@ -14,7 +14,7 @@ export default function HomeScreen({navigation}) {
 
   return (
     <View style={{ flex: 1 , }}>
-      <Header title={"Home"} iconTitle={"home"} /> 
+      <Header title={"Home"} iconTitle={"home-outline"} /> 
      
       <View style={{ flex: 5,  }}>
         <Profile />
