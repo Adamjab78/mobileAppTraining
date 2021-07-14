@@ -17,7 +17,7 @@ export default function ProfileScreen() {
     return (
       <View style={{ flex: 1 }}>
        
-       <Header title={"Profile"} iconTitle={"md-person-circle-outline"} /> 
+       <Header title={"Profile"} iconTitle={"person-outline"} /> 
         
         <View style={{ flex: 5 }}>
           <Text style={{ marginHorizontal: 10,padding: 5,marginBottom: 10, marginTop: 10, fontSize :18,color: "darkblue"}}>
